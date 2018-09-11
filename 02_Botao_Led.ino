@@ -25,7 +25,7 @@ void loop() {
   buttonState = digitalRead(buttonPin);
 
   // Verifica se o pushbutton está pressionado, se for HIGH:
-  if (buttonState == HIGH) {
+  if (buttonState == LOW) {
     // Liga o Led (Depende da ligação):
     digitalWrite(ledPin, HIGH);
   } else {
